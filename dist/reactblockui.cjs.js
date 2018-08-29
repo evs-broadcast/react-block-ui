@@ -183,7 +183,7 @@ var BlockUi$1 = function (_Component) {
             // https://www.tjvantoll.com/2013/08/30/bugs-with-document-activeelement-in-internet-explorer/#blurring-the-body-switches-windows-in-ie9-and-ie10
             if (this.focused && this.focused !== document.body) {
               (window.setImmediate || setTimeout)(function () {
-                return _this2.topFocus && _this2.topFocus.focus();
+                return _this2.focused && _this2.focused.blur();
               });
             }
           }
