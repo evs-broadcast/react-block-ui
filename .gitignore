@@ -1,7 +1,6 @@
 /__test__/coverage
 node_modules
 /build
-/lib
 /.tmp
 /style.css
 /redux.js
